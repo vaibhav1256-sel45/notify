@@ -8,8 +8,8 @@ export default defineConfig({
   plugins: [react(), VitePWA({
     includeAssets: ['vite.svg', 'favicon.ico', 'robots.txt', "android/*.png","ios/*.png","windows11/*.png"], // Ensures vite.svg is included in the build
     manifest: {
-      name: 'My Vite PWA App',
-      short_name: 'VitePWA',
+      name: 'Notify',
+      short_name: 'Notify',
       description: 'A Progressive Web App built with Vite',
       theme_color: '#ffffff',
       background_color: '#ffffff',
